@@ -20,7 +20,12 @@ class _HomeState extends State<Home> {
           child: Column(
             children: [
               Container(
-                child: TextField(),
+                child: TextField(
+                  decoration: 
+                  InputDecoration(border: InputBorder.none,
+                  icon:Icon(Icons.attach_money_sharp),
+                  ),
+                ),
               )
             ],
           ),
